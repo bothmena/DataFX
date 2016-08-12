@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+    <bottom>
+        <HBox alignment="CENTER" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <Button fx:id="button" mnemonicParsing="false" prefHeight="36.0" prefWidth="600.0" text="Navigate" HBox.hgrow="ALWAYS">
+                <font>
+                    <Font name="DejaVu Sans Mono Bold" size="18.0" />
+                </font>
+            </Button>
+            <padding>
+                <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+            </padding>
+        </HBox>
+    </bottom>
+    <center>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ComboBox fx:id="comboBox" layoutX="100.0" layoutY="149.0" prefHeight="36.0" promptText="Select a View" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" />
+         </children></AnchorPane>
+    </center>
+</BorderPane>

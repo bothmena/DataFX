@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<HBox alignment="CENTER_RIGHT" spacing="10.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+   <Button fx:id="back" mnemonicParsing="false" text="Back" minWidth="80" />
+   <Button fx:id="next" mnemonicParsing="false" text="Next" minWidth="80" />
+   <Button fx:id="finish" mnemonicParsing="false" text="Finish" minWidth="70" />
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</HBox>
